@@ -27,32 +27,31 @@ https://www.flexboxdefense.com
 */
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row;;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    row-gap: 10px;
+    flex-wrap: wrap-reverse
+    align-content nowrap
+   row-gap 10px ;
     column-gap: 30px;
 
     /* INDIFERENTE */
-    background-color: antiquewhite;
+    background-color: rgb(215, 250, 250);
     padding: 16px;
-    height: 500px;
+    height: 200px;
 }
 
 .bloco-1 {
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 234);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
     flex-shrink: 1;
-    flex: 0 0 auto;
-    align-self: flex-start;
+     align-self: flex-start;
 }
 
 .bloco-2 {
-    background-color: rgb(255, 214, 127);
+    background-color: rgb(255, 127, 127);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -74,7 +73,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-5 {
-    background-color: rgb(129, 127, 255);
+    background-color: rgb(142, 255, 127);
     padding: 15px;
     width: 50px;
 }
@@ -98,7 +97,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-9 {
-    background-color: rgb(245, 44, 77);
+    background-color: rgb(44, 124, 245);
     padding: 15px;
     width: 50px;
 }
@@ -110,7 +109,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-11 {
-    background-color: rgb(176, 245, 15);
+    background-color: rgb(245, 15, 15);
     padding: 15px;
     width: 50px;
 }
@@ -150,3 +149,4 @@ https://www.flexboxdefense.com
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
 }
+
